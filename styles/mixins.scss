@@ -1,0 +1,13 @@
+@mixin box-shadow($hlength, $vlength, $blur, $spread, $color) {
+  -webkit-box-shadow: $hlength $vlength $blur $spread $color;
+  -moz-box-shadow: $hlength $vlength $blur $spread $color;
+  box-shadow: $hlength $vlength $blur $spread $color;
+}
+
+@mixin square($size, $color) {
+  width: $size;
+  height: $size;
+  background-color: $color;
+  @include box-shadow(18px, 10px, 5px, 0px, rgba(0, 0, 0, 0.75));
+}
+
