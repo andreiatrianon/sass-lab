@@ -1,10 +1,7 @@
-@import "variables";
-@import "mixins";
-
 .small-blue-square {
-  @include square(20px, $primary-color);
+
 }
 
 .big-yellow-square {
-  @include square(300px, $secondary-color);
+
 }
