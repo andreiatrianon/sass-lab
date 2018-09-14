@@ -1,0 +1,29 @@
+.button {
+  height: 70px;
+  font-size: 28px;
+}
+.button.button-primary {
+  background-color: red;
+}
+.button.button-primary:hover {
+  background-color: yellow;
+}
+.button.button-secondary {
+  background-color: #005577;
+}
+
+.small-blue-square {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.big-yellow-square {
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px black;
+  -webkit-box-shadow: 10px 10px 10px 10px black;
+  background-color: #005577;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,13 @@
-.small-blue-square {
+@import 'variables';
+@import 'mixins';
 
+.small-blue-square {
+  @include square(50px + 100px);
+  background-color: $primary-color;
 }
 
 .big-yellow-square {
-
+  @include square(300px);
+  @include box-shadow(10px, 10px, 10px, 10px);
+  background-color: $secondary-color;
 }

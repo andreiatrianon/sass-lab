@@ -4,6 +4,7 @@ const concat = require('gulp-concat');
 const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 
+//Método para compilar os arquivos .scss sem precisar fazer o @import, e 'minificar' o arquivo
 
 gulp.task('compile-sass', function () {
   return gulp.src('styles/*.scss')
